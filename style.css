@@ -1,4 +1,10 @@
-.editor-styles-wrapper {
-    background-color: #333 !importante;
-    color: #ddd !important;
+add_action('admin_head', 'wtabdm');
+
+function wtabdm() {?>
+  <style>
+    .editor-styles-wrapper {
+        background-color: #333 !importante;
+        color: #ddd !important;
+    }
+  </style><?php
 }
