@@ -3,7 +3,7 @@ add_action('admin_head', 'wtabdm');
 function wtabdm() {?>
   <style>
     .editor-styles-wrapper {
-        background-color: #333 !importante;
+        background-color: #333 !important;
         color: #ddd !important;
     }
   </style><?php
