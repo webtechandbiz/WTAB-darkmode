@@ -6,5 +6,8 @@ function wtabdm() {?>
         background-color: #333 !important;
         color: #ddd !important;
     }
+    .wp-block-code code {
+        color: #ddd;
+    }
   </style><?php
 }
