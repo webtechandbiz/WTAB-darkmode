@@ -9,5 +9,11 @@ function wtabdm() {?>
     .wp-block-code code {
         color: #ddd;
     }
+    .components-panel{
+        background-color: #ddd !important
+    }
+    .components-panel__body.is-opened>.components-panel__body-title{
+        background-color: #fff
+    }
   </style><?php
 }
